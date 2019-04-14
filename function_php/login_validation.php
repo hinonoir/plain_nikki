@@ -2,7 +2,6 @@
   session_start();
 
   // $link = mysqli_connect("localhost","root","excelsus48273","memberapp");
-  $link = mysqli_connect("mysql1017.db.sakura.ne.jp","yuto-hino","excelsus48273","yuto-hino_plain_nikki");
   
   if(mysqli_connect_error()){
     die("データベースへの接続に失敗しました。");

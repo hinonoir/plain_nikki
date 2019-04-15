@@ -29,4 +29,4 @@ Since anyone can log in, please feel free to try it.
 
 Copyright (c) [2019] [Yuto Hino]
 
-Licensed under the [MIT License](LISCENSE).
+Licensed under the [MIT License](LICENSE).

@@ -1,5 +1,6 @@
 <?php
   session_start();
+  session_regenerate_id();
 
   // $link = mysqli_connect("localhost","root","excelsus48273","memberapp");
   

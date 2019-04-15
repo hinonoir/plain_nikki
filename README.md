@@ -22,5 +22,5 @@ It is easy to use, posting and editing diary easily.
 - Change Password
 
 ## Quick start
-You can try using plain paper with ["Tester"](https://yuto-hino.sakura.ne.jp/) as a trial.
+You can try using plain paper with <a href="https://yuto-hino.sakura.ne.jp/" target="_blank">"Tester"</a> as a trial.
 Since anyone can log in, please feel free to try it.

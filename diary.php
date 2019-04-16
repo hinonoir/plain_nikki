@@ -107,7 +107,7 @@
 									</div><!-- d-flex -->
 
 									<!-- タイトル -->
-									<h5 class="text-dark border-bottom pb-1"><strong><?php echo $row['title']; ?></strong></h5>
+									<h5 class="text-dark border-bottom text-truncate pb-1"><strong><?php echo $row['title']; ?></strong></h5>
 
 									<!-- 内容 -->
 									<p class="text-body overflow-hidden" style="max-height:4.4em;">

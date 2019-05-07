@@ -102,24 +102,22 @@
       <div class="row justify-content-center mx-auto">
         <div class="col-sm-5 col-xs-12 rounded py-2 mb-5 text-center" style="background-color: rgba(255, 255, 255, 0.8);">
         
-          <h5 class="text-center">
-            <i class="fas fa-long-arrow-alt-down"></i>
-            こちらでログインできます
-          </h5>
-          <p class="m-0">クリックで自動入力</p>
-          <button class="btn btn-info mb-3" onClick="return copy_paste()">
-            <i class="fas fa-paste"> コピー&ペースト</i>
-          </button>
+          <form method="post" action="function_php/login_validation.php">
+            <h5 class="text-center">
+              <i class="fas fa-long-arrow-alt-down"></i>
+              こちらでログインできます
+            </h5>
+            <!-- トークン認証 -->
+            <input type="hidden" name="csrf_token" value="<?php echo $csrf_token?>">
 
-          <div class="form-group d-flex justify-content-center mx-auto">
-            <p class="col-sm-4 my-auto">ユーザー名</p>
-            <input id="copy_username" type="text" class="bg-white form-control border-0 col-sm-6 col-xs-5" value="テスター" readonly>
-          </div><!-- form-group -->
+            <!-- ユーザー名 -->
+            <input id="copy_username" type="hidden" name="name" value="テスター">
             
-          <div class="form-group d-flex justify-content-center">
-            <p class="col-sm-4 my-auto">パスワード</p>
-            <input id="copy_password" type="text" class="bg-white form-control border-0 col-sm-6 col-xs-5" value="diary-tester" readonly>
-          </div><!-- form-group -->
+            <!-- パスワード -->
+            <input id="copy_password" type="hidden" name="password" value="diary-tester">
+
+            <input type="submit" value="テスターでログイン" class="btn btn-info mb-3">
+          </form>
           
           <!-- 注意書き -->
           <div class="warning-note text-muted text-left">

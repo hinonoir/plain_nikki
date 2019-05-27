@@ -1,11 +1,3 @@
-// コピー&ペーストボタン
-function copy_paste(){
-  var username = document.getElementById("copy_username").value;
-  var password = document.getElementById("copy_password").value;
-  document.getElementById("name1").value = username;
-  document.getElementById("pass1").value = password;
-}
-
 // ダブルクリック防止（アラート）
 var set=0;
 function double_click_alert() {

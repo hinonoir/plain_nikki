@@ -13,7 +13,7 @@
 
 ## What kind of app?
 It is a simple diary application that can leave a diary on the browser.
-It is easy to use, posting and editing diary easily.
+It is easy to use, posting and editing diary easily. :)
 
 ## Main function
 - Login system
